@@ -1,0 +1,1 @@
+package com.deepanshuraj.opspilot.agent; public record AgentStep(String type,String tool,String text){public static AgentStep thought(String t){return new AgentStep("THOUGHT",null,t);}public static AgentStep action(String n,String t){return new AgentStep("ACTION",n,t);}public static AgentStep observation(String n,String t){return new AgentStep("OBSERVATION",n,t);}}

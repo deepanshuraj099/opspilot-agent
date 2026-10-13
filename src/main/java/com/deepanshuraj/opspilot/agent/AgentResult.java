@@ -1,0 +1,1 @@
+package com.deepanshuraj.opspilot.agent; import java.util.*; public record AgentResult(String sessionId,String question,List<AgentStep> steps,String answer,List<String> citations,long latencyMs,String provider){public AgentResult{steps=List.copyOf(steps);citations=List.copyOf(citations);}}
