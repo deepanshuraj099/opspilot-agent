@@ -1,0 +1,2 @@
+opspilot.llm.provider: openai
+spring.ai.openai.chat.options.model: gpt-4o-mini

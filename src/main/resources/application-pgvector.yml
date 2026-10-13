@@ -1,0 +1,3 @@
+spring:
+  datasource: { url: jdbc:postgresql://localhost:5432/opspilot, username: opspilot, password: opspilot }
+  jpa: { hibernate.ddl-auto: update, database-platform: org.hibernate.dialect.PostgreSQLDialect }
